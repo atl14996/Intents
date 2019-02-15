@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvFirstNameDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="24sp"
+        android:textColor="#080F4B" />
+
+
+    <TextView
+        android:id="@+id/tvLastNameDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="24sp"
+        android:textColor="#EE111111" />
+    <TextView
+
+        android:id="@+id/tvAddressDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="24sp"
+        android:textColor="#080F4B" />
+
+    <TextView
+        android:id="@+id/tvCityDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="#EE111111" />
+
+    <TextView
+        android:id="@+id/tvSTateDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="24sp"
+        android:textColor="#EE111111" />
+
+    <TextView
+        android:id="@+id/tvPostalCodeDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="24sp"
+        android:textColor="#EE111111" />
+
+    <Button
+        android:id="@+id/btnSendInfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="CLICK TO SUBMIT INFORMATION"
+        android:onClick="onClickButtonHandler"/>
+
+
+    <EditText
+        android:id="@+id/etFirstNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="FIRST NAME"/>
+
+    <EditText
+        android:id="@+id/etLastNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="LAST NAME"/>
+
+    <EditText
+        android:id="@+id/etAddressInput"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="ADDRESS"/>
+
+    <EditText
+        android:id="@+id/etCityNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="CITY"/>
+
+    <EditText
+        android:id="@+id/etStateInput"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="STATE"/>
+
+    <EditText
+        android:id="@+id/etPostalCodeInput"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="POSTAL CODE"/>
+</android.support.constraint.ConstraintLayout>
